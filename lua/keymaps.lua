@@ -4,6 +4,9 @@ local km = vim.keymap.set
 vim.g.mapleader = " "
 vim.g.maplocalleader = ","
 
+km("n", ";", ":", { desc = "CMD enter command mode" })
+km("i", "jk", "<ESC>")
+
 km("n", "<C-h>", "<C-w>h")
 km("n", "<C-j>", "<C-w>j")
 km("n", "<C-k>", "<C-w>k")

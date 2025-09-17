@@ -1,23 +1,18 @@
 return {
     {
         "mason-org/mason-lspconfig.nvim",
-        opts = {
-            ensure_installed = {
-                "lua_ls",
-                "rust_analyzer",
-                "html",
-                "cssls",
-                "bashls",
-                "cmake",
-                "gopls",
-                "tailwindcss",
-                "ts_ls",
-                "astro",
-                "clangd",
-                "pylsp",
-                "eslint"
-            },
-        },
+        opts = {},
+        config = function()
+            require("mason-lspconfig").setup {
+                automatic_enable = {
+                    "lua_ls",
+                    "vimls",
+                    "rust-analyzer",
+                    "pyright",
+                    "clangd",
+                }
+            }
+        end,
         dependencies = {
             { "mason-org/mason.nvim", opts = {} },
             "neovim/nvim-lspconfig",

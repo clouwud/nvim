@@ -6,6 +6,15 @@ return {
 			local lint = require("lint")
 			lint.linters_by_ft = {
 				markdown = { "markdownlint" },
+				clojure = { "clj-kondo" },
+				dockerfile = { "hadolint" },
+				inko = { "inko" },
+				janet = { "janet" },
+				json = { "jsonlint" },
+				-- markdown = { "vale" },
+				rst = { "vale" },
+				ruby = { "ruby" },
+				terraform = { "tflint" },
 				text = { "vale" },
 			}
 
@@ -39,7 +48,7 @@ return {
 			-- lint.linters_by_ft['rst'] = nil
 			-- lint.linters_by_ft['ruby'] = nil
 			-- lint.linters_by_ft['terraform'] = nil
-			lint.linters_by_ft["text"] = nil
+			-- lint.linters_by_ft['text'] = nil
 
 			-- Create autocommand which carries out the actual linting
 			-- on the specified events.

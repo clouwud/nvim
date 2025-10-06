@@ -189,6 +189,7 @@ return {
 				pyright = {},
 				rust_analyzer = {},
 				ts_ls = {},
+				glow = {},
 				lua_ls = {
 					-- cmd = { ... },
 					-- filetypes = { ... },

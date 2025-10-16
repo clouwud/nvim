@@ -1,0 +1,14 @@
+-- return {
+-- 	"rktjmp/lush.nvim",
+-- 	-- if you wish to use your own colorscheme:
+-- 	-- { dir = '/absolute/path/to/colorscheme', lazy = true },
+-- }
+--
+-- return {
+--   'uZer/pywal16.nvim',
+--   -- for local dev replace with:
+--   -- dir = '~/your/path/pywal16.nvim',
+--   config = function()
+--     vim.cmd.colorscheme("pywal16")
+--   end,
+-- }

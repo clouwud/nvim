@@ -9,17 +9,17 @@ M.matugen = {
   },
   insert = {
     a = { fg = "#e3e2e9", bg = "#93000a", gui = "bold" },
-    b = { fg = "#e3e2e9", bg = "#e2bbdc" },
+    b = { fg = "#121318", bg = "#e2bbdc" },
     c = { fg = "#e3e2e9", bg = "#38393f" },
   },
   visual = {
     a = { fg = "#121318", bg = "#c1c6dd", gui = "bold" },
-    b = { fg = "#e3e2e9", bg = "#e2bbdc" },
+    b = { fg = "#121318", bg = "#e2bbdc" },
     c = { fg = "#e3e2e9", bg = "#38393f" },
   },
   replace = {
     a = { fg = "#121318", bg = "#ffb4ab", gui = "bold" },
-    b = { fg = "#e3e2e9", bg = "#e2bbdc" },
+    b = { fg = "#121318", bg = "#e2bbdc" },
     c = { fg = "#e3e2e9", bg = "#38393f" },
   },
   inactive = {

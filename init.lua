@@ -18,10 +18,3 @@ vim.o.signcolumn = "yes"
 vim.o.cursorline = true
 vim.o.inccommand = "split"
 -- vim.o.confirm = true
-
--- Load Matugen-generated colors automatically
--- local matugen_colors = vim.fn.expand("~/.config/nvim/colors/matugen.vim")
--- if vim.fn.filereadable(matugen_colors) == 1 then
---   vim.cmd("source " .. matugen_colors)
--- end
-

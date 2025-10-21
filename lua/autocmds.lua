@@ -5,9 +5,3 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     vim.hl.on_yank()
   end,
 })
-
-vim.api.nvim_create_autocmd("ColorScheme", {
-  callback = function()
-    require("lualine").setup({ options = { theme = "auto" } })
-  end,
-})
